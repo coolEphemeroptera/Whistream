@@ -43,7 +43,7 @@ def process1():
 # launch the asr, modify your seeting
 def recognition():
     global asr
-    asr.transcribe(language="zh",
+    asr.transcribe(language=language,
                    task="transcribe",
                    condition_on_previous_text=True)
 def process2():

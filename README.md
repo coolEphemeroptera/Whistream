@@ -55,7 +55,7 @@ def process1():
 # launch the asr, modify your seeting
 def recognition():
     global asr
-    asr.transcribe(language="zh",
+    asr.transcribe(language=language,
                    task="transcribe",
                    condition_on_previous_text=True)
 def process2():
@@ -102,3 +102,9 @@ if __name__ == "__main__":
     p2.start()
     p3.start()
 ```
+
+## 3. Contact us
+605686962@qq.com
+coolEphemeroptera@gmail.com
+
+
